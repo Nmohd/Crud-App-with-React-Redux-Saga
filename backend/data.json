@@ -1,336 +1,6 @@
 {
   "users": [
     {
-      "id": 52,
-      "first_name": "Herc",
-      "last_name": "Lancett",
-      "email": "hlancett1f@engadget.com",
-      "gender": "Male",
-      "avatar": "https://robohash.org/inventorenonnisi.png?size=50x50&set=set1",
-      "domain": "Finance",
-      "available": true
-    },
-    {
-      "id": 53,
-      "first_name": "Aldridge",
-      "last_name": "Echlin",
-      "email": "aechlin1g@apache.org",
-      "gender": "Male",
-      "avatar": "https://robohash.org/voluptasrationecorrupti.png?size=50x50&set=set1",
-      "domain": "UI Designing",
-      "available": false
-    },
-    {
-      "id": 54,
-      "first_name": "Harp",
-      "last_name": "Petz",
-      "email": "hpetz1h@discuz.net",
-      "gender": "Male",
-      "avatar": "https://robohash.org/distinctionumquamconsectetur.png?size=50x50&set=set1",
-      "domain": "IT",
-      "available": true
-    },
-    {
-      "id": 55,
-      "first_name": "Gypsy",
-      "last_name": "Ledgeway",
-      "email": "gledgeway1i@washington.edu",
-      "gender": "Female",
-      "avatar": "https://robohash.org/quiautiste.png?size=50x50&set=set1",
-      "domain": "Management",
-      "available": false
-    },
-    {
-      "id": 56,
-      "first_name": "Blithe",
-      "last_name": "Kingsland",
-      "email": "bkingsland1j@imdb.com",
-      "gender": "Female",
-      "avatar": "https://robohash.org/sedestsuscipit.png?size=50x50&set=set1",
-      "domain": "Business Development",
-      "available": false
-    },
-    {
-      "id": 57,
-      "first_name": "Lynn",
-      "last_name": "Besque",
-      "email": "lbesque1k@about.me",
-      "gender": "Genderqueer",
-      "avatar": "https://robohash.org/teneturofficiaconsequuntur.png?size=50x50&set=set1",
-      "domain": "Sales",
-      "available": true
-    },
-    {
-      "id": 58,
-      "first_name": "Lothaire",
-      "last_name": "Olliffe",
-      "email": "lolliffe1l@sogou.com",
-      "gender": "Male",
-      "avatar": "https://robohash.org/aliquamporroomnis.png?size=50x50&set=set1",
-      "domain": "Finance",
-      "available": true
-    },
-    {
-      "id": 59,
-      "first_name": "Harmony",
-      "last_name": "Henzer",
-      "email": "hhenzer1m@surveymonkey.com",
-      "gender": "Female",
-      "avatar": "https://robohash.org/quaeaccusamusoccaecati.png?size=50x50&set=set1",
-      "domain": "Sales",
-      "available": false
-    },
-    {
-      "id": 60,
-      "first_name": "Robinett",
-      "last_name": "Oolahan",
-      "email": "roolahan1n@globo.com",
-      "gender": "Female",
-      "avatar": "https://robohash.org/estestquia.png?size=50x50&set=set1",
-      "domain": "IT",
-      "available": false
-    },
-    {
-      "id": 61,
-      "first_name": "Perri",
-      "last_name": "Molines",
-      "email": "pmolines1o@dell.com",
-      "gender": "Female",
-      "avatar": "https://robohash.org/odioculpaaccusamus.png?size=50x50&set=set1",
-      "domain": "Sales",
-      "available": true
-    },
-    {
-      "id": 62,
-      "first_name": "Donia",
-      "last_name": "Fonso",
-      "email": "dfonso1p@youku.com",
-      "gender": "Female",
-      "avatar": "https://robohash.org/fugaetdelectus.png?size=50x50&set=set1",
-      "domain": "Marketing",
-      "available": false
-    },
-    {
-      "id": 63,
-      "first_name": "Hiram",
-      "last_name": "Entwistle",
-      "email": "hentwistle1q@ebay.com",
-      "gender": "Male",
-      "avatar": "https://robohash.org/laboriosamomnisodit.png?size=50x50&set=set1",
-      "domain": "Sales",
-      "available": false
-    },
-    {
-      "id": 64,
-      "first_name": "Dasie",
-      "last_name": "French",
-      "email": "dfrench1r@oakley.com",
-      "gender": "Female",
-      "avatar": "https://robohash.org/namtemporatempore.png?size=50x50&set=set1",
-      "domain": "UI Designing",
-      "available": true
-    },
-    {
-      "id": 65,
-      "first_name": "Terencio",
-      "last_name": "Strephan",
-      "email": "tstrephan1s@adobe.com",
-      "gender": "Male",
-      "avatar": "https://robohash.org/idutcorporis.png?size=50x50&set=set1",
-      "domain": "Marketing",
-      "available": false
-    },
-    {
-      "id": 66,
-      "first_name": "Miquela",
-      "last_name": "Wybern",
-      "email": "mwybern1t@examiner.com",
-      "gender": "Female",
-      "avatar": "https://robohash.org/vitaesedipsam.png?size=50x50&set=set1",
-      "domain": "UI Designing",
-      "available": false
-    },
-    {
-      "id": 67,
-      "first_name": "Wald",
-      "last_name": "McKinless",
-      "email": "wmckinless1u@stanford.edu",
-      "gender": "Male",
-      "avatar": "https://robohash.org/sintquiveritatis.png?size=50x50&set=set1",
-      "domain": "Finance",
-      "available": true
-    },
-    {
-      "id": 68,
-      "first_name": "Giordano",
-      "last_name": "Heddan",
-      "email": "gheddan1v@t.co",
-      "gender": "Male",
-      "avatar": "https://robohash.org/nostrumsintatque.png?size=50x50&set=set1",
-      "domain": "Sales",
-      "available": false
-    },
-    {
-      "id": 69,
-      "first_name": "Dominic",
-      "last_name": "Lumm",
-      "email": "dlumm1w@ifeng.com",
-      "gender": "Male",
-      "avatar": "https://robohash.org/iddolorequis.png?size=50x50&set=set1",
-      "domain": "Business Development",
-      "available": true
-    },
-    {
-      "id": 70,
-      "first_name": "Connie",
-      "last_name": "Andreev",
-      "email": "candreev1x@omniture.com",
-      "gender": "Female",
-      "avatar": "https://robohash.org/distinctioauteum.png?size=50x50&set=set1",
-      "domain": "Finance",
-      "available": false
-    },
-    {
-      "id": 71,
-      "first_name": "Hedwiga",
-      "last_name": "Lumbers",
-      "email": "hlumbers1y@redcross.org",
-      "gender": "Female",
-      "avatar": "https://robohash.org/maximeestnatus.png?size=50x50&set=set1",
-      "domain": "Marketing",
-      "available": false
-    },
-    {
-      "id": 72,
-      "first_name": "Petronella",
-      "last_name": "Bravington",
-      "email": "pbravington1z@accuweather.com",
-      "gender": "Female",
-      "avatar": "https://robohash.org/voluptasmaioresnihil.png?size=50x50&set=set1",
-      "domain": "Business Development",
-      "available": false
-    },
-    {
-      "id": 73,
-      "first_name": "Somerset",
-      "last_name": "Dewerson",
-      "email": "sdewerson20@amazon.co.jp",
-      "gender": "Male",
-      "avatar": "https://robohash.org/quisdebitisexcepturi.png?size=50x50&set=set1",
-      "domain": "IT",
-      "available": false
-    },
-    {
-      "id": 74,
-      "first_name": "Vassily",
-      "last_name": "Riping",
-      "email": "vriping21@umich.edu",
-      "gender": "Male",
-      "avatar": "https://robohash.org/natusundeperferendis.png?size=50x50&set=set1",
-      "domain": "Finance",
-      "available": false
-    },
-    {
-      "id": 75,
-      "first_name": "Karlen",
-      "last_name": "Hastie",
-      "email": "khastie22@nasa.gov",
-      "gender": "Female",
-      "avatar": "https://robohash.org/aliasreprehenderitsit.png?size=50x50&set=set1",
-      "domain": "IT",
-      "available": true
-    },
-    {
-      "id": 76,
-      "first_name": "Cori",
-      "last_name": "Tromans",
-      "email": "ctromans23@feedburner.com",
-      "gender": "Male",
-      "avatar": "https://robohash.org/omnisquaeratquae.png?size=50x50&set=set1",
-      "domain": "Sales",
-      "available": true
-    },
-    {
-      "id": 77,
-      "first_name": "Lolly",
-      "last_name": "Steffens",
-      "email": "lsteffens24@elegantthemes.com",
-      "gender": "Female",
-      "avatar": "https://robohash.org/quaecumquam.png?size=50x50&set=set1",
-      "domain": "Business Development",
-      "available": false
-    },
-    {
-      "id": 78,
-      "first_name": "Ricki",
-      "last_name": "Denisovich",
-      "email": "rdenisovich25@mediafire.com",
-      "gender": "Male",
-      "avatar": "https://robohash.org/istedelectusaliquam.png?size=50x50&set=set1",
-      "domain": "Management",
-      "available": false
-    },
-    {
-      "id": 79,
-      "first_name": "Devy",
-      "last_name": "Tregonna",
-      "email": "dtregonna26@globo.com",
-      "gender": "Bigender",
-      "avatar": "https://robohash.org/etrationefuga.png?size=50x50&set=set1",
-      "domain": "UI Designing",
-      "available": true
-    },
-    {
-      "id": 80,
-      "first_name": "Carry",
-      "last_name": "Harrie",
-      "email": "charrie27@ucoz.ru",
-      "gender": "Female",
-      "avatar": "https://robohash.org/suntverovoluptatem.png?size=50x50&set=set1",
-      "domain": "Sales",
-      "available": false
-    },
-    {
-      "id": 81,
-      "first_name": "Curran",
-      "last_name": "Mea",
-      "email": "cmea28@cafepress.com",
-      "gender": "Male",
-      "avatar": "https://robohash.org/officianobisomnis.png?size=50x50&set=set1",
-      "domain": "Finance",
-      "available": true
-    },
-    {
-      "id": 82,
-      "first_name": "Nan",
-      "last_name": "Poxon",
-      "email": "npoxon29@live.com",
-      "gender": "Female",
-      "avatar": "https://robohash.org/iureadipiscipossimus.png?size=50x50&set=set1",
-      "domain": "Finance",
-      "available": false
-    },
-    {
-      "id": 83,
-      "first_name": "Tim",
-      "last_name": "Redford",
-      "email": "tredford2a@paginegialle.it",
-      "gender": "Female",
-      "avatar": "https://robohash.org/magniametneque.png?size=50x50&set=set1",
-      "domain": "Finance",
-      "available": false
-    },
-    {
-      "id": 84,
-      "first_name": "Orella",
-      "last_name": "Gibke",
-      "email": "ogibke2b@house.gov",
-      "gender": "Female",
-      "avatar": "https://robohash.org/estliberoaspernatur.png?size=50x50&set=set1",
-      "domain": "Finance",
-      "available": false
-    },
-    {
       "id": 85,
       "first_name": "Almeria",
       "last_name": "Arr",
@@ -9489,6 +9159,36 @@
       "avatar": "https://robohash.org/sequiquiabeatae.png?size=50x50&set=set1",
       "domain": "Business Development",
       "available": true
+    },
+    {
+      "first_name": "Mohd Najeeb",
+      "last_name": "ullah",
+      "email": "ullah@gmal.com",
+      "gender": "Male",
+      "avatar": "https://robohash.org/sintessequaerat.png?size=50x50&set=set1",
+      "domain": "IT",
+      "available": false,
+      "id": 1001
+    },
+    {
+      "first_name": "Mohd",
+      "last_name": "llhe",
+      "email": "lsdfi@gmailc.com",
+      "gender": "Male",
+      "avatar": "https://robohash.org/sintessequaerat.png?size=50x50&set=set1",
+      "domain": "Help desk",
+      "available": false,
+      "id": 1002
+    },
+    {
+      "first_name": "idobara",
+      "last_name": "uncle john",
+      "email": "jkkjhg@hfgjh.com",
+      "gender": "Male",
+      "avatar": "https://robohash.org/sintessequaerat.png?size=50x50&set=set1",
+      "domain": "Development",
+      "available": false,
+      "id": 1003
     }
   ]
 }

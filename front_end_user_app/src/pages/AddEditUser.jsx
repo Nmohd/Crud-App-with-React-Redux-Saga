@@ -4,7 +4,10 @@ import { useDispatch, useSelector } from "react-redux";
 import { createUserStart, updateUserStart } from "../redux/actions";
 
 import { useNavigate, useParams } from "react-router-dom";
-import { toast } from "react-toastify";
+// import { toast } from "react-toastify";
+import { ToastContainer, toast } from "react-toastify";
+
+import "react-toastify/dist/ReactToastify.css";
 
 const initialState = {
   first_name: "",
@@ -45,12 +48,12 @@ const AddEditUser = () => {
         console.log(formValue);
         dispatch(createUserStart(formValue));
         toast.success("User Added Successfully");
-        setTimeout(() => navigate("/"), 500);
+        setTimeout(() => navigate("/"), 1500);
       } else {
         dispatch(updateUserStart({ id, formValue }));
         setEditMode(false);
         toast.success("User Updated Successfully");
-        setTimeout(() => navigate("/"), 500);
+        setTimeout(() => navigate("/"), 1500);
       }
     }
   };
@@ -62,6 +65,7 @@ const AddEditUser = () => {
       noValidate
       onSubmit={handleSubmit}
     >
+      <ToastContainer />
       {/* <form onSubmit={handleSubmit}> */}
 
       <div
