@@ -11,9 +11,6 @@ import {
   MDBSpinner,
 } from "mdb-react-ui-kit";
 import { Link } from "react-router-dom";
-// import { useNavigate } from "react-router-dom";
-
-// import { toast } from "react-toastify";
 import { ToastContainer, toast } from "react-toastify";
 
 import "react-toastify/dist/ReactToastify.css";
@@ -21,7 +18,7 @@ import "react-toastify/dist/ReactToastify.css";
 const Home = () => {
   const { users, loading } = useSelector((state) => state.data);
   const dispatch = useDispatch();
-  // const navigate = useNavigate();
+
   const notify = (message) => toast(message);
   let message = "";
 

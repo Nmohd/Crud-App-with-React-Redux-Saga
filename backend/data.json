@@ -1,26 +1,6 @@
 {
   "users": [
     {
-      "id": 85,
-      "first_name": "Almeria",
-      "last_name": "Arr",
-      "email": "aarr2c@washington.edu",
-      "gender": "Female",
-      "avatar": "https://robohash.org/temporavelitquis.png?size=50x50&set=set1",
-      "domain": "Management",
-      "available": false
-    },
-    {
-      "id": 86,
-      "first_name": "Robyn",
-      "last_name": "Landrick",
-      "email": "rlandrick2d@elegantthemes.com",
-      "gender": "Female",
-      "avatar": "https://robohash.org/architectoevenietquis.png?size=50x50&set=set1",
-      "domain": "Marketing",
-      "available": true
-    },
-    {
       "id": 87,
       "first_name": "Shermie",
       "last_name": "Laux",
