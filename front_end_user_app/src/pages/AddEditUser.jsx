@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { createUserStart, updateUserStart } from "../redux/actions";
 
 import { useNavigate, useParams } from "react-router-dom";
-// import { toast } from "react-toastify";
+
 import { ToastContainer, toast } from "react-toastify";
 
 import "react-toastify/dist/ReactToastify.css";
@@ -66,7 +66,7 @@ const AddEditUser = () => {
       onSubmit={handleSubmit}
     >
       <ToastContainer />
-      {/* <form onSubmit={handleSubmit}> */}
+      
 
       <div
         style={{
@@ -112,16 +112,7 @@ const AddEditUser = () => {
           invalid
         />
         <br />
-        {/* <MDBInput
-          value={phone || ""}
-          name="gender"
-          onChange={onChange}
-          required
-          label="Gender"
-          type=""
-          validation="Please select gender"
-          invalid
-        /> */}
+       
 
         <MDBInput
           value={domain || ""}
@@ -152,16 +143,7 @@ const AddEditUser = () => {
         />
 
         <br />
-        {/* <MDBInput
-          value={address || ""}
-          name="address"
-          type="text"
-          onChange={onChange}
-          required
-          label="Address"
-          validation="Please provide an address"
-          invalid
-        /> */}
+
         <br />
         <div className="col-12">
           <MDBBtn style={{ marginRight: "10px" }} type="submit">
@@ -172,7 +154,7 @@ const AddEditUser = () => {
           </MDBBtn>
         </div>
       </div>
-      {/* </form> */}
+
     </MDBValidation>
   );
 };

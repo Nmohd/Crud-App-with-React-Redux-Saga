@@ -68,7 +68,7 @@ function* onDeleteUserStartAsync(userId) {
   try {
     const response = yield call(deleteUserApi, userId);
     if (response.status === 200) {
-      // yield delay(500);
+      yield delay(500);
       yield put(deleteUserSuccess(response.data));
     }
   } catch (error) {

@@ -19,16 +19,16 @@ const Home = () => {
   const { users, loading } = useSelector((state) => state.data);
   const dispatch = useDispatch();
 
-  const notify = (message) => toast(message);
-  let message = "";
-
   useEffect(() => {
     dispatch(loadUsersStart());
   }, [dispatch]);
 
   if (loading) {
     return (
-      <MDBSpinner style={{ marginTop: "150px" }} role="status">
+      <MDBSpinner
+        style={{ marginTop: "100px", marginLeft: "900px" }}
+        role="status"
+      >
         <span className="visually-hidden">Loading...</span>
       </MDBSpinner>
     );
@@ -38,9 +38,8 @@ const Home = () => {
     if (window.confirm("Are you sure you want to delete this user?")) {
       dispatch(deleteUserStart(id));
       dispatch(loadUsersStart());
+      toast.success("User Deleted Successfully");
     }
-    message = "User deleted successfully";
-    notify(message);
   };
   return (
     <>
