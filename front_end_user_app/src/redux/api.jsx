@@ -24,7 +24,7 @@ export const updateUserApi = async (userId, userInfo) =>
     userInfo
   );
 
-// Delete User
+// Search User
 
 export const searchUserApi = async (userId) =>
   // await axios.get(`http://localhost:5000/api/users/${userId}`);
