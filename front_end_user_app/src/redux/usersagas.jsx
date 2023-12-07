@@ -19,19 +19,22 @@ import {
   deleteUserError,
   updateUserSuccess,
   updateUserError,
+  searchUserSuccess,
+  searchUserError,
 } from "./actions";
 import {
   loadUsersApi,
   createUserApi,
   deleteUserApi,
   updateUserApi,
+  searchUserApi,
 } from "./api";
 
 function* onLoadUsersStartAsync() {
   try {
     const response = yield call(loadUsersApi);
     if (response.status === 200) {
-      // yield delay(500);
+      yield delay(900);
       yield put(loadUsersSuccess(response.data));
     }
   } catch (error) {
@@ -49,7 +52,7 @@ function* onCreateUserStartAsync({ payload }) {
   try {
     const response = yield call(createUserApi, payload);
 
-    if (response.status === 200) {
+    if (response.status === 201) {
       yield put(createUserSuccess(response.data));
     }
   } catch (error) {
@@ -68,9 +71,9 @@ function* onDeleteUserStartAsync(userId) {
   try {
     const response = yield call(deleteUserApi, userId);
     if (response.status === 200) {
-      yield delay(500);
-      yield put(deleteUserSuccess(response.data));
+      yield delay(200);
     }
+    yield put(deleteUserSuccess(response.data));
   } catch (error) {
     yield put(deleteUserError(error.response.data));
   }
@@ -82,7 +85,7 @@ function* onDeleteUser() {
     yield call(onDeleteUserStartAsync, userId);
   }
 }
-
+// update user
 function* onUpdateUserStartAsync({ payload: { id, formValue } }) {
   try {
     const response = yield call(updateUserApi, id, formValue);
@@ -94,9 +97,24 @@ function* onUpdateUserStartAsync({ payload: { id, formValue } }) {
   }
 }
 
-// update user
 export function* onUpdateUser() {
   yield takeLatest(types.UPDATE_USER_START, onUpdateUserStartAsync);
+}
+
+// search user
+function* onSearchUserStartAsync({ payload: { id } }) {
+  try {
+    const response = yield call(searchUserApi, id);
+    if (response.status === 200) {
+      yield put(searchUserSuccess(response.data));
+    }
+  } catch (error) {
+    yield put(searchUserError(error));
+  }
+}
+
+export function* onSearchUser() {
+  yield takeLatest(types.SEARCH_USER_START, onSearchUserStartAsync);
 }
 
 const userSagas = [
@@ -104,6 +122,7 @@ const userSagas = [
   fork(onCreateUser),
   fork(onDeleteUser),
   fork(onUpdateUser),
+  fork(onSearchUser),
 ];
 
 export default function* rootSaga() {

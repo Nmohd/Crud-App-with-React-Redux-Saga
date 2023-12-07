@@ -10,6 +10,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const initialState = {
+  id: Math.floor(Math.random() * 100 + 1),
   first_name: "",
   last_name: "",
   email: "",
@@ -31,14 +32,14 @@ const AddEditUser = () => {
   useEffect(() => {
     if (id) {
       setEditMode(true);
-      const singleUser = users.find((item) => item.id === Number(id));
+      const singleUser = users.usersData?.find((item) => item.id === Number(id));
       setFormValue({ ...singleUser });
     }
   }, [id]);
 
   const onChange = (e) => {
     setFormValue({ ...formValue, [e.target.name]: e.target.value });
-    // console.log(formValue);
+    console.log(formValue);
   };
 
   const handleSubmit = (e) => {
@@ -66,7 +67,6 @@ const AddEditUser = () => {
       onSubmit={handleSubmit}
     >
       <ToastContainer />
-      
 
       <div
         style={{
@@ -112,7 +112,6 @@ const AddEditUser = () => {
           invalid
         />
         <br />
-       
 
         <MDBInput
           value={domain || ""}
@@ -154,7 +153,6 @@ const AddEditUser = () => {
           </MDBBtn>
         </div>
       </div>
-
     </MDBValidation>
   );
 };

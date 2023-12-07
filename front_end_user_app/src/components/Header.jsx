@@ -9,21 +9,37 @@ import {
   MDBNavbarItem,
   MDBNavbarLink,
   MDBCollapse,
+  MDBBtn,
 } from "mdb-react-ui-kit";
-
 import { NavLink } from "react-router-dom";
+
+import { useDispatch } from "react-redux";
+import { searchUserStart } from "../redux/actions";
+// import {   } from "../redux/actions";
 
 const Header = () => {
   const [showBasic, setShowBasic] = useState(false);
+  const [userId, setSearchId] = useState(0);
+  const dispatch = useDispatch();
+
+  console.log(userId);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    dispatch(searchUserStart(userId));
+    console.log("inside", userId);
+    // setSearchId(0);
+  };
+
   return (
     <>
       <MDBNavbar expand="lg" light bgColor="primary">
         <MDBContainer fluid>
           <MDBNavbarBrand className="text-white">
             <span style={{ marginRight: "10px" }}>
-              <MDBIcon fas icon="book-open" />
+              <MDBIcon fas icon="user" />
             </span>{" "}
-            Contact
+            User book
           </MDBNavbarBrand>
 
           <MDBNavbarToggler
@@ -61,6 +77,19 @@ const Header = () => {
                 </MDBNavbarLink>
               </MDBNavbarItem> */}
             </MDBNavbarNav>
+            <form
+              className=".d-flex.input-group.w-auto"
+              onSubmit={handleSubmit}
+            >
+              <input
+                type="number"
+                className="form-control"
+                placeholder="Search ID...."
+                value={userId}
+                onChange={(e) => setSearchId(e.target.value)}
+              />
+              <MDBBtn>Search by ID</MDBBtn>
+            </form>
           </MDBCollapse>
         </MDBContainer>
       </MDBNavbar>
